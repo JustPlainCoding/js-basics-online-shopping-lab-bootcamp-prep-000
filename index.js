@@ -49,7 +49,6 @@ function removeFromCart(item) {
       result = cart.splice(i, 1);
     } 
   }
-return result;
 }
 
 function placeOrder(cardNumber) {
